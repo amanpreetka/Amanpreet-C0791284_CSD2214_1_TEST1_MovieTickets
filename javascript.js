@@ -11,6 +11,7 @@ selectedMovie = (movieIndex, moviePrice) => {
   localStorage.setItem('selectedMoviePrice', moviePrice);
 };
 
+//Updated Seat Count
 const updateSelectedSeatsCount = () => {
   const selectedSeats = document.querySelectorAll('.vertical-row .selected');
 
@@ -51,7 +52,7 @@ movieSelect.addEventListener('change', e => {
   updateSelectedSeatsCount();
 });
 
-
+// Save price to local storage
 function save_price() {
     localStorage.setItem("storageName",ticket_amt);
   }
