@@ -1,0 +1,109 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(211, 211, 197);
+  color:black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.movie-holder {
+  margin: 20px 0;
+}
+
+.movie-holder select {
+  
+  border: 0;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  appearance: none;
+}
+
+
+.seat {
+  background-color: #444451;
+  height: 25px;
+  width: 25px;
+  margin: 3px;
+}
+
+.seat.selected {
+  background-color: #0d6236;
+}
+
+.seat.occupied {
+  background-color: rgb(132, 40, 40);
+}
+
+
+
+
+.showcase {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.showcase li small {
+  margin-left: 2px;
+}
+
+.vertical-row {
+  display: flex;
+}
+
+
+
+p.text {
+  margin: 5px 0;
+}
+
+p.text span {
+  color: black;
+}
+
+#foot{
+    margin-top: 3rem;
+}
+
+header{
+    margin-bottom: 5rem;
+}
+
+
+.btn-search{
+    background-color: rgb(107, 142, 247);
+}
+.fname{
+    margin-left: 2.7rem;
+}
+.cnum{
+    margin-left: 1.6rem;
+}
+
+.cvv_num{
+    margin-left: 1.5rem;
+}
