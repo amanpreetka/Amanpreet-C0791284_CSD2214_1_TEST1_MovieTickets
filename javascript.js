@@ -56,6 +56,8 @@ movieSelect.addEventListener('change', e => {
 function save_price() {
     localStorage.setItem("storageName",ticket_amt);
   }
+
+//Card Vaildation
 $(function(){
     $('#contact-form').validate({
         rules:{
